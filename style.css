@@ -1,0 +1,371 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 100%;
+    background-image: transparent;
+    background: linear-gradient(135deg, black 10%, black 50%, green 100%);
+}
+
+.container img {
+    width: 100%;
+    height: 100vh;
+}
+
+.head ul {
+    display: inline-flex;
+    top: 25px;
+    position: absolute;
+    left: 60px;
+    width: 500px;
+    height: 30px;
+    text-shadow: 2px 2px 2px green, 2px 2px 1px green;
+    transition: 0.5s;
+}
+
+.head ul li a:hover {
+    transition: 0.5s;
+    text-shadow: 2px 2px 2px blue, 2px 2px 1px blue;
+}
+
+.header ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    list-style-type: none;
+    color: white;
+    margin-left: 100px;
+}
+
+.box {
+    top: -15px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    writing-mode: vertical-lr;
+    background-color: rgba(0, 128, 0, 0.849);
+    left: 25px;
+    position: absolute;
+    width: 22px;
+    height: 400px;
+    box-shadow: 0px 0px 2px 2px green;
+    transform: rotate(-180deg);
+}
+
+.box1 {
+    bottom: 2.5px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    writing-mode: vertical-lr;
+    background-color: rgba(0, 128, 0, 0.849);
+    left: 75px;
+    position: absolute;
+    width: 22px;
+    height: 400px;
+    box-shadow: 0px 0px 2px 2px green;
+    transform: rotate(-180deg);
+}
+
+.text {
+    text-shadow: 2px 2px 2px green, 2px 2px 1px green;
+    color: greenyellow;
+    font-weight: 1000;
+    left: 155px;
+    top: 80px;
+    background-image: transparent;
+    position: absolute;
+    font-size: 60px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.text1 {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.589);
+    left: 155px;
+    top: 350px;
+    width: 400px;
+    text-shadow: 2px 2px 2px rgba(0, 128, 0, 0.61), 2px 2px 1px rgba(0, 128, 0, 0.705);
+}
+
+.pic {
+    z-index: 1;
+    border-bottom: 15px outset green;
+    right: 170px;
+    top: 120px;
+    position: absolute;
+    width: 300px;
+    height: 290 px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 3px green;
+}
+
+.pic img {
+    z-index: 2;
+    width: 280px;
+    height: 280px;
+    top: 15px;
+    left: 12px;
+    position: relative;
+}
+
+.mini {
+    color: white;
+    text-shadow: 2px 2px 2px green, 2px 2px 1px blue;
+    z-index: 2;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 0px 0px 45px 0px;
+    box-shadow: 0px 0px 5px 5px green;
+    top: 90px;
+    right: 425px;
+    width: 150px;
+    height: 100px;
+    position: absolute;
+}
+
+.right {
+    font-weight: 900;
+    font-size: 20px;
+    transform: rotate(-180deg);
+    text-align: center;
+    color: white;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    width: 70px;
+    height: 100%;
+    writing-mode: vertical-rl;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.74) 10%, rgba(255, 255, 255, 0.61) 50%, rgba(0, 128, 0, 0.623) 100%);
+}
+
+.you {
+    cursor: pointer;
+    bottom: 115px;
+    left: 22px;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 5px;
+    transition: 1s;
+    border: 1px solid white;
+    background-color: silver;
+}
+
+.you:hover {
+    transition: 1s;
+    box-shadow: 0px 0px 3px 3px blue;
+}
+
+.you img {
+    left: 1px;
+    top: .5px;
+    transform: rotate(-180deg);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+.face {
+    cursor: pointer;
+    bottom: 150px;
+    left: 22px;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 5px;
+    transition: 1s;
+    border: 1px solid white;
+    background-color: silver;
+}
+
+.face:hover {
+    transition: 1s;
+    box-shadow: 0px 0px 3px 3px blue;
+}
+
+.face img {
+    left: 1px;
+    top: .5px;
+    transform: rotate(-180deg);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+.inst {
+    cursor: pointer;
+    bottom: 185px;
+    left: 22px;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 5px;
+    transition: 1s;
+    border: 1px solid white;
+    background-color: silver;
+}
+
+.inst:hover {
+    transition: 1s;
+    box-shadow: 0px 0px 3px 3px blue;
+}
+
+.inst img {
+    left: 1px;
+    top: .5px;
+    transform: rotate(-180deg);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+.twitter {
+    cursor: pointer;
+    bottom: 220px;
+    left: 22px;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 5px;
+    transition: 1s;
+    border: 1px solid white;
+    background-color: silver;
+}
+
+.twitter:hover {
+    transition: 1s;
+    box-shadow: 0px 0px 3px 3px blue;
+}
+
+.twitter img {
+    left: 1px;
+    top: .5px;
+    transform: rotate(-180deg);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+.line {
+    bottom: 0px;
+    right: 35px;
+    position: absolute;
+    width: 2px;
+    height: 100px;
+    background-color: white;
+}
+
+.line1 {
+    bottom: 255px;
+    right: 35px;
+    position: absolute;
+    width: 2px;
+    height: 330px;
+    background-color: white;
+}
+
+.footter {
+    z-index: 0;
+    bottom: -30px;
+    left: 200px;
+    width: 900px;
+    height: 120px;
+    margin: 50px auto;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to top left, green 25%, transparent 50%, green 75%, green 100%);
+    border-image-slice: 1;
+    position: absolute;
+}
+
+.footter p {
+    position: relative;
+    font-size: 25px;
+    color: white;
+    float: left;
+    top: -15px;
+    left: -60px;
+    font-weight: 100px;
+    margin-left: 185px;
+
+}
+
+.box3 {
+    position: relative;
+    top: 12px;
+    font-weight: 900px;
+    font-size: 60px;
+    text-align: center;
+    height: 90px;
+    width: 900px;
+    color: white;
+}
+
+.input1 {
+    font-size: 18px;
+    text-shadow: 2px 2px 2px yellow, 2px 2px 1px blue;
+    outline: none;
+    text-align: center;
+    color: green;
+    border: 0px;
+    top: 23px;
+    right: 420px;
+    position: absolute;
+    height: 25px;
+    width: 200px;
+    background: linear-gradient(to left, transparent 5%, yellow 50%, transparent 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.submit {
+    font-size: 18px;
+    text-shadow: 2px 2px 2px green, 2px 2px 1px green;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    color: white;
+    border: 0px;
+    top: 23px;
+    right: 225px;
+    position: absolute;
+    height: 25px;
+    width: 200px;
+    transition: 0.5s;
+    background: linear-gradient(to left, transparent 5%, yellow 50%, transparent 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.submit:hover {
+    transition: 0.5s;
+    color: silver;
+    text-shadow: 2px 2px 2px yellow, 2px 2px 1px blue;
+}
+
+.Subscribe {
+    font-weight: 900;
+    font-size: 22px;
+    text-shadow: 2px 2px 2px yellow, 2px 2px 1px blue;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    color: yellow;
+    border: 0px;
+    bottom: 220px;
+    right: 37%;
+    position: absolute;
+    height: 45px;
+    width: 280px;
+    transition: 0.5s;
+    background: linear-gradient(to left, transparent 5%, green 50%, transparent 100%);
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.Subscribe:hover {
+    transition: 0.5s;
+    color: silver;
+    text-shadow: 2px 2px 2px yellow, 2px 2px 1px blue;
+}
